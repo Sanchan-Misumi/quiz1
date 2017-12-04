@@ -60,7 +60,6 @@ class QuizViewController: UIViewController {
     
     
     @IBAction func choiceAnswer(sender: UIButton){
-        print("here")
         let  tmpArray = quizArray[0] as! [Any]
         if tmpArray[4] as! Int == sender.tag{
             //正解数を増やす

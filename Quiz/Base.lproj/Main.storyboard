@@ -119,7 +119,6 @@
                                 <state key="normal" title="タイトルに戻る"/>
                                 <connections>
                                     <action selector="back" destination="feA-4G-cjc" eventType="touchUpInside" id="TZm-ad-o4D"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="QlR-VY-HJl"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="結果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlx-pO-qaB">
