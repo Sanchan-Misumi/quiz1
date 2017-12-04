@@ -10,7 +10,9 @@ import UIKit
 
 class resultViewController: UIViewController {
     
+    //正解数
     var correctAnswer: Int = 0
+    //結果を表示させるラベル
     @IBOutlet var resultLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

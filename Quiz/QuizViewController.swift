@@ -24,7 +24,9 @@ class QuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
           // Do any additional setup after loading the view.
+        //一時的にクイズを格納しておく配列
          var tmpArray = [Any]()
+        //tempArrayに問題文、選択肢３つ、答えの番号が入った配列を追加していく
         tmpArray.append(["ベトナム人が食べる麺の名前は？","フォー","ラーメン","うどん",1])
          tmpArray.append(["イラン人が毎朝食べるのは？","パスタ","ナン","ご飯",2])
          tmpArray.append(["タイ人が好きな柑橘系の葉の香辛料は何の葉っぱ？","ぶどう","みかん","りんご",2])
